@@ -16,7 +16,7 @@ VALUES  ("CEO", 200000, 1),
         ("Customer Support", 75000, 4);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES  ("Sage", "Grayson", 1, null),
+VALUES  ("Kai", "Gerstley", 1, null),
         ("Sarah", "Sawyer", 2, 1),
         ("Oliva", "Roudebush", 3, 1),
         ("Erin", "Budd", 4, 3),

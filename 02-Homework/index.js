@@ -4,10 +4,10 @@ const cTable = require("console.table");
 
 const database = mysql.createConnection({
   host: "localhost",
-  port: 3020,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
+  user: "root",
+  password: "1234",
+  database: "company_db",
+  port: 3306,
 });
 
 database.connect((err) => {
